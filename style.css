@@ -1,0 +1,175 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;
+    font-family: 'Inter';
+    color: #ffff;
+}
+
+.header-container {
+    width: 100%;
+    max-width: 1266px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 82px;
+
+}
+
+.header-logo {
+    color: #ffff;
+    font-weight: 600;
+    font-size: 22.1541px;
+    line-height: 27px;
+    text-decoration: none;
+
+}
+
+.header-menu {
+    list-style: none;
+    display: flex;
+}
+
+.header-menu__link {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.header-menu__item {
+    margin-right: 51px;
+}
+
+.header-title {
+    width: 762.2867431640625px;
+    font-weight: 400;
+    font-size: 34.8438px;
+    line-height: 95.52%;
+    text-align: center;
+    margin: auto;
+    padding-top: 227px;
+
+}
+
+/* Header------------------------------end */
+
+
+
+
+/* portfolio section-------------------start */
+
+.main-title {
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 95.52%;
+
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* portfolio section-------------------end */
+
+
+.portfolio__container {
+    margin: 0px auto;
+    width: 100%;
+    max-width: 1128px;
+}
+
+
+.portfolio-section__title {
+    margin-top: 286px;
+    margin-bottom: 125px;
+}
+
+.portfolio-photos {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.portfolio-photos img {
+    width: 50%;
+}
+
+/* about section-----------start*/
+
+.about-section{
+    margin-bottom: 343px;
+}
+.about-container {
+    width: 100%;
+    max-width: 1117px;
+    margin: 0px auto;
+
+}
+
+.about-section__title{
+    margin-bottom: 55px;
+}
+
+.about-section__text{
+    font-weight: 300;
+font-size: 31.3802px;
+line-height: 95.52%;
+text-align: center;
+margin-bottom: 40px;
+}
+
+.about-photos{
+display: flex;
+
+}
+
+
+/* about section-----------end */
+
+/* service-section --------------start */
+.service-section{ 
+    
+}
+
+.services-container{
+    width: 100%;
+    max-width: 1117px;
+    margin: 0px auto;
+
+}
+
+.services-section__title{
+
+    margin-bottom: 97px;
+
+}
+
+.services-card{
+display: flex;
+flex-wrap: wrap;
+}
+.services-card{
+    padding: 43px 30px 76px;
+    background: #F2F2F2;
+    max-width: 558px;
+    width: 50%;
+
+}
+
+.services-card__title{
+    font-weight: 700;
+font-size: 60.8412px;
+line-height: 95.52%;
+color: #000000;
+}
+
+.services-card__text{
+
+}
+
